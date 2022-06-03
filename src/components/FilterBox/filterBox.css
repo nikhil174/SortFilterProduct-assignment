@@ -1,0 +1,13 @@
+.filterBox {
+  width: 25%;
+  margin-left: 25px;
+}
+.filter__container {
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 18px;
+  border-radius: 4px;
+  background-color: gray;
+  color: white;
+  padding: 15px;
+}

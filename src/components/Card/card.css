@@ -1,0 +1,40 @@
+.card {
+  width: 30%;
+  height: 390px;
+  border: 1px solid rgba(128, 128, 128, 0.156);
+  margin: 13px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 27px 27px 36px #e8e4e4, -27px -27px 36px #ffffff;
+  transition: 0.2s ease-in-out;
+  align-items: center;
+}
+.card:hover {
+  transform: scale(1.003);
+}
+img {
+  width: 90%;
+  height: 200px;
+  object-fit: contain;
+}
+.card__info {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+p {
+  margin: 0;
+  font-size: 12px;
+}
+#title {
+  font-size: 18px;
+  font-weight: 500;
+  color: gray;
+}
+#brand {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+#price {
+  font-size: 18px;
+  padding-top: 10px;
+}
